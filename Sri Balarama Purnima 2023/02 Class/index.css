@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#bgv {
+    position: absolute;
+    height: 130vh;
+    width: 130vw;
+    z-index: -10;
+    margin: 0;
+    transform: translate(-10%, -10%);
+}
+
+#lt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 2vh;
+    left: 2vh;
+}
+
+#panel {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-3.5vw);
+    z-index: -2;
+}
+
+#anga {
+    font-size: 2.25vw;
+}
+
+#desc {
+    font-size: 1.5vw;
+    margin-top: -.5vw;
+    font-weight: 400;
+}
+
+#event {
+    background: #ff2edccc;
+    font-size: 1.5vw;
+    padding: 0.2vw 1.2vw 0.2vw 1.2vw;
+    border-top-right-radius: 2vw;
+    padding-left: 3vw;
+    color: white;
+    font-weight: 800;
+    padding-right: 2vw;
+
+}
+
+#caption {
+    background: linear-gradient(90deg, #fa8fe8, #75d6ec 150%);
+    font-size: 3.1vw;
+    padding: .3vw;
+    width: 80vw;
+    text-align: center;
+    border-top-right-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+    padding-left: 3vw;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+
+#badge-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#badge-cont img {
+    width: 15vw;
+    height: 15vw;
+}
+
+#deity {
+    margin-left: -15.16vw;
+    z-index: 2;
+}
+
+#border {
+    animation: wheel 60s linear infinite;
+    z-index: -1;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

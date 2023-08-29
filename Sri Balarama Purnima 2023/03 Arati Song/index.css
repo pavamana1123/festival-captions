@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#lt {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 2vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#panel {
+    display: flex;
+    z-index: -2;
+}
+
+#title {
+    font-size: 2vw;
+    white-space: pre;
+}
+
+#desc {
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+#caption {
+    background: linear-gradient(90deg, #fa8fe8, #75d6ec 150%);
+    font-size: 3.1vw;
+    padding: 1vw;
+    width: 95vw;
+    text-align: center;
+    border-radius: 2vw;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+
+#badge-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#badge-cont img {
+    width: 15vw;
+    height: 15vw;
+}
+
+#border {
+    animation: wheel 60s linear infinite;
+    z-index: -1;
+}
+
+@keyframes wheel {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

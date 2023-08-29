@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+
+    background-color: rgba(89, 9, 123, 0.699);
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+#Title {
+    font-size: 2.5vw;
+    margin: .9vw .1vw .9vw .1vw;
+    font-weight: bolder;
+}
+
+#Anga {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    font-weight: bolder;
+}

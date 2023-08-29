@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+
+    background-color: rgba(7, 91, 90, 0.699);
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+#Title {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: .75vw;
+}
